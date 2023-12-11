@@ -58,7 +58,7 @@
 
 
 ------------------------------------------------------------------
-## کلاینت انواع وورکر برای v2rayN و v2rayNG:
+## انواع وورکر برای کلاینت‌های v2rayN و v2rayNG:
 [با پروکسیای فری‌نود](https://github.com/NiREvil/workers-cloudflare/tree/main/v2rayN%20%26%20v2rayNG/freenode.js)
 (باید از [سایت فری‌نود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرید و چندبار توی کد جایگزین بکنیدش)
 
