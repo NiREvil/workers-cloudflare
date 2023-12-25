@@ -1,5 +1,5 @@
 const maxConfigItems = 2000
-const maxPerType = 600
+const maxPerType = 300
 const includeOriginalConfigs = 0
 
 const subLinks = [
