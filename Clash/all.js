@@ -7,7 +7,7 @@ const subLinks = [
   "https://raw.githubusercontent.com/coldwater-10/V2ray-Configs/main/Splitted-By-Protocol/ss.txt",
   "https://raw.githubusercontent.com/coldwater-10/V2Hub/main/Split/Base64/shadowsocks",
   "https://raw.githubusercontent.com/coldwater-10/V2Hub2/main/Split/Base64/vmess",
-  "https://raw.githubusercontent.com/coldwater-10/V2Hub2/main/Split/Base64/trojan"
+  "https://raw.githubusercontent.com/NiREvil/vless/main/sub/freedom"
 ]
 const cnfLinks = [
   "https://raw.githubusercontent.com/coldwater-10/V2ray-Configs/main/Splitted-By-Protocol/vmess.txt",
