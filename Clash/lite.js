@@ -7,7 +7,7 @@ const subLinks = [
   "https://raw.githubusercontent.com/coldwater-10/V2ray-Configs/main/Splitted-By-Protocol/ss.txt",
   "https://raw.githubusercontent.com/coldwater-10/V2Hub/main/Split/Base64/shadowsocks",
   "https://raw.githubusercontent.com/coldwater-10/V2Hub2/main/Split/Base64/vmess",
-  "https://raw.githubusercontent.com/coldwater-10/V2Hub2/main/Split/Base64/trojan"
+  "https://raw.githubusercontent.com/NiREvil/vless/main/sub/freedom"
 ]
 const cnfLinks = [
   "https://raw.githubusercontent.com/coldwater-10/V2ray-Configs/main/Splitted-By-Protocol/vmess.txt",
@@ -17,7 +17,7 @@ const cnfLinks = [
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
 const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "APT", "ALL", "PLUS", "TEST", "ENG", "FA", "IPV6", "IRCF", "ANTY"]
-const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com"]
+const addressList = ['www.ipchicken.com','www.udacity.com', 'edtunnel-dgp.pages.dev', 'iplocation.io', 'time.is', 'ip.sb', 'www.wto.org', 'icook.hk', 'skk.moe', 'fbi.gov', 'www.12377.cn']
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "360", "qq", "random", "random"]
 const alpnList = ["http/1.1", "h2,http/1.1", "h2,http/1.1", "h2,http/1.1"]
 var cleanIPs = []
