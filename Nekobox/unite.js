@@ -1,6 +1,10 @@
 /**
- * Cloudflare Worker to Merged Subscription URLs
- */
+* Time is: 26 Dec 2023 16:37 UTC
+* Cloudflare Worker to Merged Subscription URLs
+*
+* Released by NiREvil
+*/
+// @ts-ignore
 
 addEventListener('fetch', (event) => {
   event.respondWith(handleRequest(event.request));
@@ -9,15 +13,15 @@ addEventListener('fetch', (event) => {
 async function handleRequest(request) {
   // Define an array of subscription URLs
   const subscriptionUrls = [
-      // NiREvil
+      // تعداد لینک ها اصلا مهم نیست
       'https://raw.githubusercontent.com/NiREvil/vless/main/sub/freedom',
-      'https://octave.revilcloud.workers.dev/',
-      'https://harmony.revil.link/',
-      'https://arcane.nirevil.ir/',
+      'https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix',
+      'https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub1.txt',
+      'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt',
       'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt',
       'https://raw.githubusercontent.com/NiREvil/vless/main/sub/hz',
-      'https://raw.githubusercontent.com/yebekhe/TVC/main/subscriptions/xray/base64/reality',
-      'https://raw.githubusercontent.com/yebekhe/TVC/main/lite/subscriptions/xray/base64/vless',
+      'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt',
+      'https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/donated',
       // Add more URLs as needed
   ];
 
