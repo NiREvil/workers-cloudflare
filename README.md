@@ -54,6 +54,11 @@
 
 [با پروکسیای سریع](https://github.com/NiREvil/workers-cloudflare/tree/main/Nekobox/fast.js)
 
+
+[جمع کردن چندتا لینک ساب تو یه لینک ساب واحد بدون تغییر](https://github.com/NiREvil/workers-cloudflare/blob/main/Nekobox/unite.js)
+
+[جمع کردن چندتا لینک ساب تو یه لینک ساب با تغییر](https://github.com/NiREvil/workers-cloudflare/blob/main/Nekobox/fastest.js) 
+
 ------------------------------------------------------------------
 
 
