@@ -220,7 +220,7 @@
   [نمونه خروجی](https://s-d-n-s-list.vpnclashfa.workers.dev)  -  [کد وورکر اون
   ](https://github.com/NiREvil/workers-cloudflare/blob/main/Other/sdns-list.js)
 
-©️ اطلاعاتش رو از گیت‌هاب [dnscrypt](https://github.com/dnscrypt) میگیره
+©️ اطلاعاتش رو از گیت‌هاب [dnscrypt](https://github.com/dnscrypt) میگیره ، با تشکر از [coldwater](https://github.com/coldwater-10/cloudflare-workers)
 
 ------------------------------------------------------------------
 
@@ -232,3 +232,4 @@
 [![icons8-gmail-64](https://img.icons8.com/arcade/64/gmail.png)](mailto:nirevil2020@gmail.com)
 [![icons8-Instagram-64](https://img.icons8.com/arcade/64/instagram-new.png)](https://instagram.com/nima_radical_?igshid=OGQ5ZDc2ODk2ZA==)
 [![icons8-Telegram-64](https://img.icons8.com/arcade/64/telegram-app.png)](https://t.me/F_NiREvil)
+
