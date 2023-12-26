@@ -15,7 +15,7 @@ async function handleRequest(request) {
   const subscriptionUrls = [
       // تعداد لینک ها اصلا مهم نیست
       'https://raw.githubusercontent.com/NiREvil/vless/main/sub/freedom',
-      'https://raw.githubusercontent.com/NiREvil/vless/main/sub/catnip.txt';
+      'https://raw.githubusercontent.com/NiREvil/vless/main/sub/catnip.txt',
       'https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix',
       'https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub1.txt',
       'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt',
