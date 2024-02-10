@@ -1,6 +1,6 @@
-# Vpnclashfa
+## لیست دامنه های فعال و فیلتر نشده پشت کلادفلر ایرانی و خارجی، لیست شامل [نام دامنه، IPV4 و IPV6](https://github.com/NiREvil/workers-cloudflare/blob/main/Other/domains.json) می‌باشد.
 
-##  تبدیل فرمت لیست جمع آوری کننده آیپی وحید برای ورکرای کانفیگ
+## تبدیل فرمت لیست جمع آوری کننده آیپی وحید برای ورکرای کانفیگ
  [نمونه خروجی](https://cf-clean-ips.vpnclashfa.workers.dev/)  -  [کد ورکرش](https://github.com/coldwater-10/cloudflare-workers/tree/main/Other/cf-clean-ips.js)
 
 ## تبدیل فرمت همه آیپی های لیستم برای اسکنر مرتضی
