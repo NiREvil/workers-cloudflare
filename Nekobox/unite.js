@@ -1,10 +1,9 @@
 /**
-* Time is: 26 Dec 2023 16:37 UTC
-* Cloudflare Worker to Merged Subscription URLs
-*
-* Released by NiREvil
+* Time is 17:41 UTC, Wednesday, 3 July 2024 by NiREvil
+* This code retrieves v2ray sub-links data from multiple links
+* - merges them
+* - without making any changes.
 */
-// @ts-ignore
 
 addEventListener('fetch', (event) => {
   event.respondWith(handleRequest(event.request));
@@ -13,20 +12,13 @@ addEventListener('fetch', (event) => {
 async function handleRequest(request) {
   // Define an array of subscription URLs
   const subscriptionUrls = [
-      // تعداد لینک ها اصلا مهم نیست
-      'https://raw.githubusercontent.com/NiREvil/vless/main/sub/freedom',
-      'https://raw.githubusercontent.com/NiREvil/vless/main/sub/catnip.txt',
-      'https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/mix',
-      'https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub1.txt',
-      'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt',
-      'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt',
-      'https://raw.githubusercontent.com/NiREvil/vless/main/sub/hz',
-      'https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/EternityAir.txt',
-      'https://raw.githubusercontent.com/yebekhe/TelegramV2rayCollector/main/sub/normal/donated',
+      'https://raw.githubusercontent.com/sahar-km/Freedom/main/-/-/Arm64/-/V8A.txt',
+      'https://raw.githubusercontent.com/sahar-km/hetzner/main/-/-/Armeabi/-/V7A.txt',
+      'https://raw.githubusercontent.com/NiREvil/vless/main/sub/SSTime'
       // Add more URLs as needed
   ];
 
-  // Fetch data from all URLs concurrently and store in an array
+  // Fetch data from all subscription links concurrently
   const validResponses = await Promise.all(
       subscriptionUrls.map(async (url) => {
           const response = await fetch(url);
